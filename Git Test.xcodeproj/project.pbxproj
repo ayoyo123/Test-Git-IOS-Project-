@@ -21,6 +21,7 @@
 		973BB60E18C6DF1300FFEA8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973BB5F018C6DF1300FFEA8F /* UIKit.framework */; };
 		973BB61618C6DF1300FFEA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 973BB61418C6DF1300FFEA8F /* InfoPlist.strings */; };
 		973BB61818C6DF1300FFEA8F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 973BB61718C6DF1300FFEA8F /* Git_TestTests.m */; };
+		973BB62318C6E14300FFEA8F /* ALYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 973BB62218C6E14300FFEA8F /* ALYTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		973BB61318C6DF1300FFEA8F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		973BB61518C6DF1300FFEA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		973BB61718C6DF1300FFEA8F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		973BB62118C6E14300FFEA8F /* ALYTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALYTest.h; path = ../ALYTest.h; sourceTree = "<group>"; };
+		973BB62218C6E14300FFEA8F /* ALYTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALYTest.m; path = ../ALYTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				973BB5FE18C6DF1300FFEA8F /* Main.storyboard */,
 				973BB60118C6DF1300FFEA8F /* ALYViewController.h */,
 				973BB60218C6DF1300FFEA8F /* ALYViewController.m */,
+				973BB62118C6E14300FFEA8F /* ALYTest.h */,
+				973BB62218C6E14300FFEA8F /* ALYTest.m */,
 				973BB60418C6DF1300FFEA8F /* Images.xcassets */,
 				973BB5F318C6DF1300FFEA8F /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				973BB5F918C6DF1300FFEA8F /* main.m in Sources */,
 				973BB60318C6DF1300FFEA8F /* ALYViewController.m in Sources */,
+				973BB62318C6E14300FFEA8F /* ALYTest.m in Sources */,
 				973BB5FD18C6DF1300FFEA8F /* ALYAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
